@@ -3,7 +3,7 @@
 # Estimation from Other Method
 ############################################
 
-PATH <- "F:/Dropbox/Chan/Research/2021/ClusterEff_Code_Submit/Simulation_NonNormal"
+PATH <- getwd()
 setwd(PATH)
 
 library(rlearner)

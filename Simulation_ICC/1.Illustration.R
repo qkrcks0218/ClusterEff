@@ -3,8 +3,7 @@
 # Illustration of Comparison between \bar{tau} and \hat{\tau}
 ############################################
 
-PATH <- "F:/Dropbox/Chan/Research/2021/ClusterEff_Code_Submit/Simulation_ICC"
-setwd(PATH)
+PATH <- getwd()
 
 source("../MySL.R")
 source("../ClusterFtSource.R")

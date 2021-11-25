@@ -10,8 +10,7 @@
 ####################################################
 
 library(readstata13)
-PATH <- "F:/Dropbox/Chan/Research/2021/ClusterEff_Code_Submit/Data_ECLSK"
-setwd(PATH)
+PATH <- getwd()
 
 # RAWDATA <- read.dta13("ECLSK_Kto8_child_STATA.dta") # <- This takes too long time; recommend to run the following stata .do file
 # set maxvar 30000

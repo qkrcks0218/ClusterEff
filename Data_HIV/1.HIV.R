@@ -9,13 +9,11 @@
 # Use bio_for_analysis.dta
 ####################################################
 
-PATH <- "F:/Dropbox/Chan/Research/2021/ClusterEff_Code_Submit/Data_HIV"
-
-setwd(PATH)
+PATH <- getwd()
 
 library(readstata13)
 
-# RD <- read.dta13("bio_for_analysis.dta")
+RD <- read.dta13("bio_for_analysis.dta")
 
 RD <- RD[RD$eligible_ITsampling==0,]
 Vars <- c( "an2_ba_b9_205_more1", # Y

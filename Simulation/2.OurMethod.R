@@ -3,7 +3,7 @@
 # Estimation from Our Method
 ############################################
 
-PATH <- "F:/Dropbox/Chan/Research/2021/ClusterEff_Code_Submit/Simulation"
+PATH <- getwd()
 
 library(lme4)
 

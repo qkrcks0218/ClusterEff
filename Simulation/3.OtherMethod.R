@@ -3,8 +3,7 @@
 # Estimation from Other Method
 ############################################
 
-PATH <- "F:/Dropbox/Chan/Research/2021/ClusterEff_Code_Submit/Simulation"
-setwd(PATH)
+PATH <- getwd()
 
 library(rlearner)
 library(grf)
