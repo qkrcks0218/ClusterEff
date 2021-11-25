@@ -1,4 +1,4 @@
-# Replication Files for Park and Kang (2020)
+# Replication Files for Park and Kang (2021)
 
 This Github repository contains replication files for [Park and Kang (2021)](https://arxiv.org/abs/2110.07740 "ClusterEff").
 
